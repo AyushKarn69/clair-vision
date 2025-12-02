@@ -1,0 +1,84 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+best_pick/clairvisionenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Image folders (input/output)
+**/images/
+**/images_input/
+**/images_output/
+**/input/
+**/output/
+**/blur_detection/images_test/
+**/sorted_output/
+**/blurry/
+**/sharp/
+model3/duplicateeeeeeee_sorted/
+model3/duplicates_sorted
+model3/input_images/
+best_pick/face_detect/gallery/
+best_pick/face_detect/query/
+
+best_pick/scripts/duplicates/
+
+best_pick/scripts/output/
+# Data and results
+results.json
+*.json
+*.csv
+*.log
+
+# Model weights (large files)
+# Exception: resnet50 weights should be pushed
+!*resnet50*
+*.h5
+*.pt
+*.ckpt
+*.pb
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
