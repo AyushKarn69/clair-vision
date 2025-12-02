@@ -6,7 +6,7 @@ A comprehensive computer vision toolkit for image quality assessment, blur detec
 
 ClairVision provides multiple tools for image processing and analysis:
 
-1. **Blur Detection** - Identify blurry vs. sharp images using Laplacian variance
+1. **Blur Detection** - Identify blurry vs. sharp images using Laplacian variance and Resnet50
 2. **Duplicate Detection** - Find and group similar/duplicate images using CLIP embeddings
 3. **Image Quality Assessment** - Evaluate image quality using neural networks
 
@@ -305,34 +305,4 @@ for threshold in thresholds:
 4. Real-time video stream processing
 5. Web API interface for remote processing
 
-## Git Configuration
 
-The `.gitignore` file excludes:
-- Virtual environments
-- Image folders (input/output)
-- Model weights (except ResNet50)
-- Cache and build artifacts
-- IDE configuration files
-
-**Exception:** ResNet50 weights are tracked for git push.
-
-## Contributing
-
-To add new features:
-1. Create feature branch
-2. Test with sample datasets
-3. Update documentation
-4. Push to main branch
-
-## License
-
-See LICENSE file for details
-
-## Contact & Support
-
-For issues or questions about the project, refer to individual module documentation or create an issue in the repository.
-
----
-
-**Last Updated:** December 3, 2025
-**Version:** 0.11
