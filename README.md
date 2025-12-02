@@ -1,4 +1,4 @@
-# ClairVision v0.11 - Image Quality & Duplicate Detection Suite
+# ClairVision v1 - Image Quality & Duplicate Detection Suite
 
 A comprehensive computer vision toolkit for image quality assessment, blur detection, and duplicate image identification using OpenCV, PyTorch, and deep learning models.
 
